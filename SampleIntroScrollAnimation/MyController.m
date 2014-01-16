@@ -39,6 +39,8 @@
 {
     [super viewDidLoad];
     
+    self.title = @"Jazz Hands Animation";
+    
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     self.scrollView.pagingEnabled = YES;
     self.scrollView.showsHorizontalScrollIndicator = YES;
