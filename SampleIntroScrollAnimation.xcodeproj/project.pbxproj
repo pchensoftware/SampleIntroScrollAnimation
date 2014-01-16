@@ -17,6 +17,7 @@
 		813A46D118886DC100E89385 /* IFTTTColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A46C418886DC100E89385 /* IFTTTColorAnimation.m */; };
 		813A46D218886DC100E89385 /* IFTTTFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A46C618886DC100E89385 /* IFTTTFrameAnimation.m */; };
 		813A46D318886DC100E89385 /* IFTTTHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A46C818886DC100E89385 /* IFTTTHideAnimation.m */; };
+		813A46D61888924C00E89385 /* MyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813A46D51888924C00E89385 /* MyController.m */; };
 		816532A71888671400767B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816532A61888671400767B6F /* Foundation.framework */; };
 		816532A91888671400767B6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816532A81888671400767B6F /* CoreGraphics.framework */; };
 		816532AB1888671400767B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816532AA1888671400767B6F /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 		813A46C718886DC100E89385 /* IFTTTHideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTHideAnimation.h; sourceTree = "<group>"; };
 		813A46C818886DC100E89385 /* IFTTTHideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTHideAnimation.m; sourceTree = "<group>"; };
 		813A46C918886DC100E89385 /* IFTTTJazzHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTJazzHands.h; sourceTree = "<group>"; };
+		813A46D41888924C00E89385 /* MyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyController.h; sourceTree = "<group>"; };
+		813A46D51888924C00E89385 /* MyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyController.m; sourceTree = "<group>"; };
 		816532A31888671400767B6F /* SampleIntroScrollAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIntroScrollAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816532A61888671400767B6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		816532A81888671400767B6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 		816532AC1888671400767B6F /* SampleIntroScrollAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				813A46D41888924C00E89385 /* MyController.h */,
+				813A46D51888924C00E89385 /* MyController.m */,
 				816532B51888671400767B6F /* AppDelegate.h */,
 				816532B61888671400767B6F /* AppDelegate.m */,
 				816532B81888671400767B6F /* Images.xcassets */,
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813A46D61888924C00E89385 /* MyController.m in Sources */,
 				813A46CD18886DC100E89385 /* IFTTTAnimation.m in Sources */,
 				816532B71888671400767B6F /* AppDelegate.m in Sources */,
 				813A46CF18886DC100E89385 /* IFTTTAnimationKeyFrame.m in Sources */,
